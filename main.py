@@ -34,7 +34,7 @@ while not game_is_finished:
         lives -= 1
         if lives == 0:
             game_is_finished = True
-            #print("You lose.")
+            print(f"Original word is '{chosen_word}'")
             print(f"Your friend {friend_name} is died because of you")
     
     if not "_" in display:
